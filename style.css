@@ -1,0 +1,117 @@
+/* ===== TEMA PROFESSIONALE BLU/GRIGIO ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #1a3d6f;
+    margin-bottom: 10px;
+}
+
+.box, .panel, .card {
+    background: #ffffff;
+    border: 1px solid #d0d4db;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c5c9d0;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #f9fafc;
+}
+
+button {
+    background: #1a3d6f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #244b85;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #1a3d6f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e0e3e8;
+}
+
+tr:hover {
+    background: #f5f7fa;
+}
+
+/* Calendario */
+.cal-container { display: flex; gap: 20px; }
+.calendario { 
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr); 
+    width: 280px; 
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.giorno { 
+    padding: 8px; 
+    border: 1px solid #e0e3e8; 
+    text-align: center; 
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.oggi { background-color: #1a3d6f; color: white; }
+.occupato { background-color: #d9534f; color: white; }
+.libero { background-color: #5cb85c; color: white; }
+
+.mese-titolo { 
+    text-align:center; 
+    font-weight:bold; 
+    margin-bottom:10px; 
+    color: #1a3d6f;
+}
+
+/* Layout generale */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.right-box {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    width: 300px;
+}
