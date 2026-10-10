@@ -2,7 +2,7 @@
 $host = "mysql-222f42a0-pepperomanelli1987-28e8.k.aivencloud.com";
 $port = 13039;
 $user = "avnadmin";
-$password = "LA_TUA_PASSWORD_AIVEN";
+$password = "DB_PASSWORD";
 $database = "defaultdb";
 
 // SSL
